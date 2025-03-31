@@ -1,0 +1,38 @@
+html {
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial';
+    background: #fdf6f9;
+    padding: 20px;
+}
+
+h1 {
+    color: #e64a8b;
+}
+
+.song-container {
+    background-color: #fff0f5;
+    border: 2px solid #e64a8b;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    color: #f22e80
+}
+
+.song-sprite {
+    background-color: #fff0f5;
+    border: 2px solid #e64a8b;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    color: #f22e80
+}
+
+.song-sprite:hover {
+    transform: scale(1.03);
+}
